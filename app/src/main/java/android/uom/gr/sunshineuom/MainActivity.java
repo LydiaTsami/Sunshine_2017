@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 new ArrayAdapter<>(
                         this,
                         R.layout.list_item_forecast,
-                        R.id.list_item_forecast_textview,
+                        R.id.list_item_forecast_TextView,
                         dummyList);
 
         ListView forecastListView = (ListView)findViewById(R.id.listview_forecast);
